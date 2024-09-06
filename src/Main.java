@@ -147,9 +147,28 @@ public class Main {
     
     System.out.println("Introduzca su nombre");
     String introduceNombre = teclado.nextLine();
+    System.out.println("Introduzca su edad");
+    int introduceEdad = teclado.nextInt();
+    System.out.println("Introduzca una palabra");
+    char caracter1 = teclado.next().charAt(1);
     System.out.println("Su nombre " + introduceNombre);
+    System.out.println("Su edad " + introduceEdad);
+    System.out.println("el caracter 1 es: " + caracter1);
     
-    
+    /*
+        next(): Lee una palabra (una secuencia de caracteres delimitada por espacios en blanco) desde la fuente de entrada y devuelve una cadena.
+        nextLine(): Lee una línea completa (una secuencia de caracteres delimitada por un salto de línea) desde la fuente de entrada y devuelve una cadena.
+        nextInt(): Lee un entero desde la fuente de entrada y devuelve un valor int.
+        nextDouble(): Lee un número de punto flotante desde la fuente de entrada y devuelve un valor double.
+        nextFloat(): Lee un número de punto flotante desde la fuente de entrada y devuelve un valor float.
+        nextBoolean(): Lee un valor booleano desde la fuente de entrada y devuelve un valor boolean.
+        nextByte(): Lee un valor byte desde la fuente de entrada y devuelve un valor byte.
+        nextShort(): Lee un valor short desde la fuente de entrada y devuelve un valor short.
+        nextLong(): Lee un valor long desde la fuente de entrada y devuelve un valor long.
+        nextBigInteger(): Lee un valor BigInteger desde la fuente de entrada y devuelve un objeto BigInteger.
+        nextBigDecimal(): Lee un valor BigDecimal desde la fuente de entrada y devuelve un objeto BigDecimal.
+        close(): Cierra la fuente de entrada asociada con el objeto Scanner y libera cualquier recurso asociado. Es recomendable cerrar un objeto Scanner una vez que ya no sea necesario para evitar fugas de memoria.
+    */
     
     }
 }
