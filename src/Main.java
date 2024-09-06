@@ -170,5 +170,35 @@ public class Main {
         close(): Cierra la fuente de entrada asociada con el objeto Scanner y libera cualquier recurso asociado. Es recomendable cerrar un objeto Scanner una vez que ya no sea necesario para evitar fugas de memoria.
     */
     
+    
+    /* 
+    Ejercicio supersencillo
+    
+    Introducir por teclado los numeros y realizar un suma
+        
+    */
+        Scanner numeroTeclado = new Scanner(System.in);
+        System.out.println("Por favor, introduce el primer numero");
+        int primerNumero = numeroTeclado.nextInt();
+        System.out.println("Por favor, introduce el segundo numero");
+        int segundoNumero = numeroTeclado.nextInt();
+        int sumaTotal = primerNumero + segundoNumero;
+        System.out.println("la suma de ambos numeros es: " + sumaTotal);
+    
+    
+     /* 
+    Ejercicio supersencillo
+    
+    Introducir por teclado EL PRECIO DE LA VENTA DE UN BOLI y QUE SALGA EL TOTAL DEL VALOR DEL BOLI (VALOR +IVA)
+    */    
+       Scanner teclado2 = new Scanner(System.in);
+       
+        System.out.println("Por favor, introduce el valor del boli");
+        double valorBoli = teclado2.nextDouble();
+        double porcentajeIva = valorBoli * 0.21;
+        double valorBruto = valorBoli + porcentajeIva;
+        System.out.println("el valor bruto del boli es: " + valorBruto);
+      
     }
+    
 }
