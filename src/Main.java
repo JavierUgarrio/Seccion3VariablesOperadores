@@ -23,5 +23,36 @@ public class Main {
         System.out.println("corrigiendo git");
         System.out.println("segunda correcion");
         
+        float numeroDecimal =1.3f;
+        double numeroDecimal2 = 123.453;
+        byte numeroByte = 25;
+        
+    //Operadores de asignacion
+
+    int numero1 = 9;
+    int numero2 =8;
+    int numero3 =83;
+    int numero4 =21;
+    int numero5 =3;
+    //Suma de asignacion
+    numero1 += 4;
+    System.out.println(numero1);
+    
+    //Resta de asignacion
+    numero2 -=6;
+    System.out.println(numero2);
+    
+    //Multiplicacion en asignacion
+    numero3 *=5;
+    System.out.println(numero3);
+    
+    //Division en asignacion
+    numero4 /=3;
+    System.out.println(numero4);
+    
+    //Modulo en asignacion
+    numero5%=4;
+    System.out.println(numero5);
+        
     }
 }
