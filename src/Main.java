@@ -20,7 +20,7 @@ public class Main {
         var segundoNombre = " De Miguel";
         var miNombre = primerNombre + segundoNombre;
         System.out.println(miNombre);
-        System.out.println();
+        System.out.println("corrigiendo git");
         
     }
 }
