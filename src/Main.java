@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     
     public static void main(String []args){
@@ -138,6 +140,14 @@ public class Main {
     } else {
         System.out.println("x3 o y3 no son mayores que cero");
     }
+    
+    
+    //Entrada de datos desde el teclado
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Introduzca su nombre");
+    String introduceNombre = teclado.nextLine();
+    System.out.println("Su nombre " + introduceNombre);
     
     
     
